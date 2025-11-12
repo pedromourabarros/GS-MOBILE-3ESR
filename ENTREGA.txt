@@ -1,0 +1,7 @@
+INTEGRANTES:
+- Pedro Moura Barros - RM550260
+- Rodrigo Fernandes dos Santos - RM98896
+
+LINK DO REPOSITÓRIO GITHUB:
+https://github.com/pedromourabarros/GS-MOBILE-3ESR
+
