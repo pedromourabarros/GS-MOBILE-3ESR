@@ -502,6 +502,24 @@ O WorkWell implementa recursos avançados que demonstram o potencial da tecnolog
 
 ---
 
+## 🎥 Vídeos de Demonstração
+
+### Vídeo "Plus" (Demonstração do Aplicativo)
+
+Vídeo de demonstração completo do WorkWell, mostrando todas as funcionalidades principais do aplicativo, incluindo:
+
+- Criação de novos registros
+- Visualização do histórico
+- Sistema de gamificação (streaks e badges)
+- Tela de insights com gráficos
+- Persistência de dados com AsyncStorage (demonstração de fechar e abrir o app)
+- Exportação de CSV
+
+**Duração**: Até 5 minutos  
+**Link**: [Assistir no YouTube](https://youtu.be/vU4tCsnxu90)
+
+---
+
 ## 📸 Capturas de Tela
 
 ### Tela Home
@@ -513,6 +531,10 @@ A tela inicial do WorkWell mostra um resumo completo do bem-estar do usuário, i
 Interface intuitiva para registrar o humor, nível de estresse e comentários sobre o dia de trabalho.
 
 ![Tela de Registro](images/registro.png)
+
+**Alerta de Sucesso**: Após salvar um registro, o aplicativo exibe um alerta com uma mensagem motivacional personalizada gerada pela IA simulada, baseada no histórico e no contexto atual do usuário.
+
+![Alerta de Registro](images/alerta-registro.png)
 
 ### Tela de Insights
 Análise avançada com gráficos interativos, estatísticas semanais, comparações percentuais e dicas personalizadas baseadas em IA simulada.
