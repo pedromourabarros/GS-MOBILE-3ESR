@@ -504,15 +504,25 @@ O WorkWell implementa recursos avançados que demonstram o potencial da tecnolog
 
 ## 📸 Capturas de Tela
 
-> **Nota**: Para a entrega final, adicione aqui prints ou GIFs mostrando o funcionamento do aplicativo em diferentes telas e funcionalidades.
+### Tela Home
+A tela inicial do WorkWell mostra um resumo completo do bem-estar do usuário, incluindo estatísticas gerais, streak de dias consecutivos, badges desbloqueadas e o dashboard "Como estou hoje?".
 
-### Sugestões de Capturas:
+![Tela Home](images/home.png)
 
-1. Tela Home com estatísticas
-2. Tela de Novo Registro preenchida
-3. Tela de Histórico com múltiplos registros
-4. Mensagem motivacional após salvar registro
-5. Tela Home vazia (primeiro uso)
+### Tela de Novo Registro
+Interface intuitiva para registrar o humor, nível de estresse e comentários sobre o dia de trabalho.
+
+![Tela de Registro](images/registro.png)
+
+### Tela de Insights
+Análise avançada com gráficos interativos, estatísticas semanais, comparações percentuais e dicas personalizadas baseadas em IA simulada.
+
+![Tela de Insights](images/insights.png)
+
+### Tela de Histórico
+Visualização completa de todos os registros salvos, com opção de exportar para CSV e gerenciar registros individuais.
+
+![Tela de Histórico](images/historico.png)
 
 ---
 

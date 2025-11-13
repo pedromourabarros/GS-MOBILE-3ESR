@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { View, StyleSheet, FlatList, RefreshControl, Alert, Platform } from 'react-native';
 import { Text, Button } from 'react-native-paper';
 import { Swipeable } from 'react-native-gesture-handler';
-import * as FileSystem from 'expo-file-system';
+import * as FileSystem from 'expo-file-system/legacy';
 import * as Sharing from 'expo-sharing';
 import { getEntries, clearEntries, deleteEntry } from '../services/storage';
 import EntryCard from '../components/EntryCard';
@@ -116,9 +116,12 @@ const HistoryScreen = ({ navigation }) => {
       const today = new Date();
       const fileName = `WorkWell_Historico_${today.getFullYear()}${String(today.getMonth() + 1).padStart(2, '0')}${String(today.getDate()).padStart(2, '0')}.csv`;
       
-      // Cria o arquivo temporário
-      const fileUri = `${FileSystem.documentDirectory}${fileName}`;
-      await FileSystem.writeAsStringAsync(fileUri, csvContent, { encoding: FileSystem.EncodingType.UTF8 });
+      // Usa cacheDirectory para arquivos temporários (mais apropriado para compartilhamento)
+      if (!FileSystem.cacheDirectory) {
+        throw new Error('Cache directory não está disponível');
+      }
+      const fileUri = `${FileSystem.cacheDirectory}${fileName}`;
+      await FileSystem.writeAsStringAsync(fileUri, csvContent);
 
       // Verifica se o dispositivo suporta compartilhamento
       const isAvailable = await Sharing.isAvailableAsync();
