@@ -597,5 +597,5 @@ Agradecemos à FIAP pela oportunidade de desenvolver este projeto e contribuir p
 
 ---
 
-**Desenvolvido com ❤️ para o futuro do trabalho**
+**Desenvolvido para o futuro do trabalho**
 
